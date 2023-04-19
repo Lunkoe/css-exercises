@@ -1,27 +1,24 @@
-body{
-  font-family:Arial, Helvetica, sans-serif
+/* Self Check
+- Did you make sure to not edit the HTML file?
+- If you added selectors to the CSS, do they target a valid HTML element?
+ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .para,
-.small-para {
+.text.child,
+div.text {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.para {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
+.para.small-para,
+.text.child {
+  font-size: 14px;
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,14 +26,14 @@ body{
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+.button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
 }
 
+
 div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
+  color: rgb(236, 7, 7);
   font-weight: 100;
 }
